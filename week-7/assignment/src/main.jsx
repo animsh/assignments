@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import One from "./components/one/One.jsx";
+import Two from "./components/two/Two.jsx";
 
 let router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ let router = createBrowserRouter([
   },
   {
     path: "/two",
-    element: <App />,
+    element: <Two />,
   },
   {
     path: "/three",
