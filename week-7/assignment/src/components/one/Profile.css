@@ -6,6 +6,7 @@
   flex-direction: column;
   color: black;
   border-radius: 8px;
+  margin: auto;
 }
 
 .topSection {

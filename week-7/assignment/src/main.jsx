@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import One from "./components/one/One.jsx";
 import Two from "./components/two/Two.jsx";
+import Four from "./components/four/Four.jsx";
 
 let router = createBrowserRouter([
   {
@@ -31,7 +32,7 @@ let router = createBrowserRouter([
   },
   {
     path: "/four",
-    element: <App />,
+    element: <Four />,
   },
   {
     path: "/five",
